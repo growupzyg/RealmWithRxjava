@@ -3,6 +3,8 @@
 
 **使用方法**
 
+```java
+
 RealmObservable
         .createObservable(new Func1<Realm, Void>() {
             @Override
@@ -25,3 +27,5 @@ RealmObservable
                 queryPersons();
             }
         });
+
+```
