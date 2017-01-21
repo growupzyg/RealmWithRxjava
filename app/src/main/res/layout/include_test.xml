@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_click_to_plus_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击加1" />
+    <TextView
+        android:id="@+id/text_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="1"
+        android:textColor="@android:color/holo_green_light"
+        />
+
+    <EditText
+        android:id="@+id/edit_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入一些内容"
+        />
+</LinearLayout>
